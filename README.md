@@ -1,4 +1,6 @@
-# hotel-front
+# Hotel app front end
+
+Simple front-end application for managing hotel reservations created in Vue.
 
 ## Project setup
 ```
