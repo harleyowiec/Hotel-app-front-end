@@ -1,0 +1,52 @@
+.room {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+      flex: 1;
+    }
+  }
+
+  &__details {
+    display: flex;
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__dates {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .v-menu__content {
+      top: initial !important;
+      left: initial !important;
+    }
+  }
+}
+
+.theme--light.v-stepper .v-stepper__step__step {
+  background-color: #63c35d;
+}
+
+.theme--light.v-stepper .v-stepper__step:not(.v-stepper__step--active):not(.v-stepper__step--complete):not(.v-stepper__step--error) .v-stepper__step__step {
+  color: #0000007a;
+}
+
+.book-room {
+  .v-btn__content {
+    color: #ffffff;
+  }
+}
+
+.disabled {
+  pointer-events:none;
+  opacity:0.6;
+}
+
+
+
